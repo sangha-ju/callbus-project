@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import House from "../images/house.png";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   display: flex;
@@ -8,6 +9,7 @@ const Container = styled.div`
   align-items: center;
   width: 100vw;
   height: 100vh;
+  background-color: #f5f6fa;
 `;
 
 const ButtonBox = styled.div`
@@ -17,6 +19,7 @@ const ButtonBox = styled.div`
   flex-direction: column;
   width: 450px;
   height: 600px;
+  background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 10px;
 `;
@@ -27,7 +30,7 @@ const Img = styled.img`
 `;
 
 const RoomLinkBtn = styled.button`
-  width: 60%;
+  width: 300px;
   height: 50px;
   margin-bottom: 20px;
   background-color: #fbc531;
@@ -47,7 +50,9 @@ function RoutingBtn() {
     <Container>
       <ButtonBox>
         <Img src={House} alt="home" />
-        <RoomLinkBtn>방 등록하기</RoomLinkBtn>
+        <Link to="/room/register">
+          <RoomLinkBtn>방 등록하기</RoomLinkBtn>
+        </Link>
         <RoomLinkBtn>방 목록보기</RoomLinkBtn>
       </ButtonBox>
     </Container>
