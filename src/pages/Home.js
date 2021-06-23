@@ -1,7 +1,8 @@
 import React from "react";
+import RoutingBtn from "../components/RoutingBtn";
 
 function Home() {
-  return <h1>hello world</h1>;
+  return <RoutingBtn />;
 }
 
 export default Home;
