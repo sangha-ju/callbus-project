@@ -1,7 +1,11 @@
 import React from "react";
 import styled from "styled-components";
+import AddressBox from "./AddressBox";
 
 const FormBox = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 600px;
   height: 800px;
   background-color: #ffffff;
@@ -9,12 +13,21 @@ const FormBox = styled.div`
   border-radius: 10px;
 `;
 
-const Form = styled.form``;
+const Form = styled.form`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+`;
 
 function RegisterForm() {
   return (
     <FormBox>
-      <Form></Form>
+      <Form>
+        <AddressBox />
+      </Form>
     </FormBox>
   );
 }

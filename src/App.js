@@ -2,7 +2,7 @@ import React from "react";
 import GlobalStyle from "./style/GlobalStyle";
 import { Route } from "react-router-dom";
 import Home from "./pages/Home";
-import RoomRegisterPage from "./pages/RoomRegisterPage";
+import RoomRegisterPage from "./pages/Register";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <GlobalStyle />
       <Route path="/" exact={true} component={Home} />
       <Route path="/room/register" exact={true} component={RoomRegisterPage} />
+      <Route path="*" component={Home} />
     </div>
   );
 }

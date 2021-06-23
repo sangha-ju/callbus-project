@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import House from "../images/house.png";
+import House from "../../../images/house.png";
 import { Link } from "react-router-dom";
 
 const Container = styled.div`

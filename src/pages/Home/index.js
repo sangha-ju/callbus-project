@@ -1,5 +1,5 @@
 import React from "react";
-import RoutingBtn from "../components/RoutingBtn";
+import RoutingBtn from "./components/RoutingBtn";
 
 function Home() {
   return <RoutingBtn />;
