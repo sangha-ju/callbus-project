@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import AddressBox from "./AddressBox";
+import ResidentialType from "./ResidentialType";
 
 const FormBox = styled.div`
   display: flex;
@@ -27,6 +28,7 @@ function RegisterForm() {
     <FormBox>
       <Form>
         <AddressBox />
+        <ResidentialType />
       </Form>
     </FormBox>
   );

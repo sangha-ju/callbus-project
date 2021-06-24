@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const AdreesSection = styled.div`
   width: 100%;
+  margin-bottom: 40px;
 
   p {
     font-size: 15px;

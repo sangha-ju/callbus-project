@@ -10,7 +10,6 @@ function App() {
       <GlobalStyle />
       <Route path="/" exact={true} component={Home} />
       <Route path="/room/register" exact={true} component={RoomRegisterPage} />
-      <Route path="*" component={Home} />
     </div>
   );
 }
