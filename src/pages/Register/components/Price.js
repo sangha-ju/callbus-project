@@ -38,7 +38,7 @@ const CostInput = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 47%;
+  width: 49%;
   height: 40px;
   padding: 1px;
   border: 1px solid #dddddd;

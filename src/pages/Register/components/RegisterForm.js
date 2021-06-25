@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import AddressBox from "./AddressBox";
-import PriceBox from "./PriceBox";
+import Address from "./Address";
+import CareCost from "./CareCost";
+import Price from "./Price";
 import ResidentialType from "./ResidentialType";
 
 const FormBox = styled.div`
@@ -28,9 +29,10 @@ function RegisterForm() {
   return (
     <FormBox>
       <Form>
-        <AddressBox />
+        <Address />
         <ResidentialType />
-        <PriceBox />
+        <Price />
+        <CareCost />
       </Form>
     </FormBox>
   );
