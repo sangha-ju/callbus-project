@@ -32,7 +32,6 @@ const Img = styled.img`
 const RoomLinkBtn = styled.button`
   width: 300px;
   height: 50px;
-  margin-bottom: 20px;
   background-color: #fbc531;
   border: none;
   border-radius: 40px;
@@ -50,10 +49,9 @@ function RoutingBtn() {
     <Container>
       <ButtonBox>
         <Img src={House} alt="home" />
-        <Link to="/room/register">
-          <RoomLinkBtn>방 등록하기</RoomLinkBtn>
+        <Link to="/room">
+          <RoomLinkBtn>방 목록보기</RoomLinkBtn>
         </Link>
-        <RoomLinkBtn>방 목록보기</RoomLinkBtn>
       </ButtonBox>
     </Container>
   );
