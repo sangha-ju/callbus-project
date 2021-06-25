@@ -1,10 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import Address from "./Address";
+import Area from "./Area";
 import CareCost from "./CareCost";
 import Floor from "./Floor";
 import Price from "./Price";
 import ResidentialType from "./ResidentialType";
+import SubmitBtn from "./SubmitBtn";
 
 const FormBox = styled.div`
   display: flex;
@@ -35,6 +37,8 @@ function RegisterForm() {
         <Price />
         <CareCost />
         <Floor />
+        <Area />
+        <SubmitBtn />
       </Form>
     </FormBox>
   );
