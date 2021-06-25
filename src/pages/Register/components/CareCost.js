@@ -70,6 +70,7 @@ function CareCost() {
       name: "TV",
     },
   ];
+
   return (
     <CareCostSection>
       <p>관리비</p>

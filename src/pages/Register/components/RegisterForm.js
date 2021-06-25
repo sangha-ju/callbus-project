@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Address from "./Address";
 import CareCost from "./CareCost";
+import Floor from "./Floor";
 import Price from "./Price";
 import ResidentialType from "./ResidentialType";
 
@@ -33,6 +34,7 @@ function RegisterForm() {
         <ResidentialType />
         <Price />
         <CareCost />
+        <Floor />
       </Form>
     </FormBox>
   );
